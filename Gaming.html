@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming</title><br><br>
+
+  <style>
+    nav {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+    }
+
+    nav h1 {
+      width: 50%;
+      margin-left: 25px;
+      color: white;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      width: 50%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-left: 800px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .laptopItem {
+      border: 2px solid rgba(0, 0, 0, 0.3);
+      width: 99%;
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: center;
+    }
+
+    .laptopItem .specifications {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 33%;
+    }
+
+    .laptopItem .specifications ul {
+      list-style-type: none;
+    }
+
+    .laptopItem .specifications ul li {
+      font-size: 22px;
+    }
+
+    .laptopItem .image {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 20px;
+      /* background-color: aqua; */
+    }
+
+    .laptopItem .image img {
+      height: 350px;
+      width: auto;
+    }
+
+    #laptopImage {
+      height: 200px;
+    }
+
+    .laptopItem .buttonContainer {
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .laptopItem .buttonContainer img {
+      border: none;
+      height: 200px;
+    }
+
+    .detailesPopup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 300px;
+      width: 300px;
+      border-radius: 10px;
+      background-color: #fff;
+      border: 2px solid black;
+      opacity: 0;
+    }
+
+    .detailesPopup .detailsHeader {
+      width: 100%;
+      height: 50px;
+    }
+
+    .detailesPopup .detailsHeader p {
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      padding-bottom: 5px;
+    }
+
+    .detailesPopup .detailsImage {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .detailesPopup .detailsImage img {
+      width: 200px;
+    }
+
+    .openClose {
+      opacity: 1;
+    }
+
+
+    #laptopAddress{
+font-size: small;
+text-align: center;
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+  <nav>
+    <h1>GAMING LAPTOP</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="Categories.html">Categories</a></li>
+      <li><a href="Assist.html">Assist</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Laptop Item 1 -->
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <ul>
+        <h2>Acer Predator Helios 300</h2>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: NVIDIA GeForce RTX 30 Series</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 8GB or 16GB LPDDR4X</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 15.6-inch FHD IPS display with high refresh rate</li><br>
+        <li>Cooling&nbsp;&nbsp;&nbsp;&nbsp;: Acer CoolBoost technology</li><br>
+        <li>Keyboard&nbsp;: Customizable RGB backlit keyboard</li><br>
+          </ul>
+    </div>
+
+    <div class="image">
+      <img src="asus zen.png">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">ACER</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="acer.jpg" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">First Floor, Amurtha Business Complex, Opp: Lalbangala Ameerpet, Metro Pillar No- C1431, Near Main road Begumpet, Punjagutta, Sanjeeva Reddy Nagar, Hyderabad, Telangana 500016</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+
+
+  <!-- Laptop Item 2 -->
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>ASUS ROG Zephyrus G15</h2>
+      <ul>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;NVIDIA GeForce RTX 30 Series</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 16GB or 32GB DDR4</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 15.6-inch QHD or FHD IPS display with high &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;refresh rate</li><br>
+        <li>Cooling&nbsp;&nbsp;&nbsp;&nbsp;: ROG Intelligent Cooling system with liquid metal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thermal compound</li><br>
+        <li>Keyboard&nbsp;: Per-key RGB backlit keyboard</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="ASUS ROG Zephyrus G15.jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">ASUS</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus.jpg" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">6th floor, Minerva Complex, Mahatma Gandhi Rd, opp. Charmas, Kalasiguda, Secunderabad, Telangana 500003</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+        <h2>MSI GS66 Stealth</h2>
+      <ul>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: NVIDIA GeForce RTX 30 Series</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 16GB or 32GB DDR4</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 15.6-inch FHD IPS display with high refresh rate</li><br>
+        <li>Cooling&nbsp;&nbsp;&nbsp;&nbsp;: Cooler Boost Trinity+ cooling system</li><br>
+        <li>Keyboard&nbsp;: Per-key RGB backlit keyboard</li><br></ul>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="Lenovo Thinkpad X1 Carbon.png">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">MSI</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus zen.png" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">121, Jade Arcade, Mahatma Gandhi Rd, Above Dadus Sweet House, Hyderabad, Telangana</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>Razer Blade 15</h2>
+      <ul>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: NVIDIA GeForce RTX 30 Series</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 16GB or 32GB DDR4</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 15.6-inch FHD or QHD IPS display with high &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;refresh rate</li><br>
+        <li>Cooling&nbsp;&nbsp;&nbsp;&nbsp;: Vapor Chamber cooling system</li><br>
+        <li>Keyboard&nbsp;: Per-key RGB backlit keyboard</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="Razer Blade 15.jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">ASUS ZENBOOK</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus zen.png" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">1-22/01, Kukatpally, near Jntuh, Hyderabd, Telangana.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>Alienware m15 R6</h2>
+      <ul>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: NVIDIA GeForce RTX 30 Series</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 16GB or 32GB DDR4</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 15.6-inch FHD or QHD IPS display with high &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;refresh rate</li><br>
+        <li>Cooling&nbsp;&nbsp;&nbsp;&nbsp;: Alienware Cryo-Tech cooling technology</li><br>
+        <li>Keyboard&nbsp;: AlienFX customizable RGB keyboard</li><br></ul>
+    </div>
+
+    <div class="image">
+      <img src="Alienware m15 R6.jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">ALIENWARE</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus zen.png" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">Second Floor, Amurtha Complex, Ameerpet, Metro Pillar No- C1430 , Near Punjagutta, Sanjeeva Reddy Nagar, Hyderabad, Telangana 500016</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+
+
+
+  <script>
+
+    function openInfo(reference) {
+      let detailesPopup = reference.parentNode.parentNode.children[1].children[1];
+      detailesPopup.classList.toggle("openClose");
+    }
+  </script>
+
+
+</body>
+
+</html>

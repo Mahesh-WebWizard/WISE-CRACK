@@ -1,0 +1,492 @@
+
+.stbtn{
+    position: absolute;
+    top: 1000px;
+    left: 80%;
+    }
+  
+  
+
+    .logo{
+      position: absolute;
+      top: 15px;
+      left: 100px;
+       }
+      body{
+
+        background-color: aqua;
+      }
+
+  ul { 
+      font-size:25px;
+      font-family:Times New Roman;
+      position: absolute; top: 1200px; /* Make the position of the list relative to its normal position */
+      left: 100px; /* Adjust the position horizontally */
+      top: 40px; /* Adjust the position vertically */
+      /* You can also use other positioning properties like right or bottom */
+      }
+  /*----------------------student html--------*/
+   
+  .asusp{
+    position:absolute;
+    top: 200px;
+    left: 20px;
+    
+    }
+    
+  
+  
+  .asuszeni {
+      position: absolute;
+      top: 270px; 
+      left: 750px; 
+    }
+     .asuszeni {
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Zoom in effect */
+  .asuszeni:hover {
+    transform: scale(1.01); /* Increase the size to 120% of the original */
+  }
+  
+   .asrvcbtn {
+      position: absolute;
+      top: 400px; 
+      right: 180px; 
+      padding: 0;
+      margin: 0;
+    }
+    
+  /* Click effect when button is active */
+  .asrvcbtn:active {
+    transform: scale(0.97); /* Scale down slightly when clicked */
+  }
+  /* Style for the button */
+  .asrvcbtn {
+     border: none;
+     padding: none;
+    cursor: pointer; 
+  }
+  
+
+
+  .dellp{
+    position: relative;
+    top:600px;
+    left: -50px;
+    
+    }
+    
+    .delli {
+      position: absolute;
+      top: 950px; 
+      left: 750px; 
+      padding: none;
+    }
+    
+    
+    .delli {
+      transition: transform 0.3s ease; /* Add a smooth transition effect */
+    }
+    
+    /* Zoom in effect */
+    .delli:hover {
+      transform: scale(1.01); /* Increase the size to 120% of the original */
+    }
+    
+    
+    
+    
+    
+    .dellbtn{
+    position: absolute;
+    top: 950px;
+    right: 180px;
+    padding:0;
+    margin: 0;
+    
+    }
+    
+    
+    
+    .dellbtn:active {
+      transform: scale(0.97); /* Scale down slightly when clicked */
+    }
+    /* Style for the button */
+    
+    .lenovop{
+        position: relative;
+        top: 1200px;
+        left: -40px;
+        
+        }
+        
+        .lenovoi {
+          position: absolute;
+          top: 1400px; 
+          left: 780px; 
+          padding: none;
+        }
+    
+    
+    
+        .lenovoi {
+          transition: transform 0.3s ease; /* Add a smooth transition effect */
+        }
+        
+        /* Zoom in effect */
+        .lenovoi:hover {
+          transform: scale(1.01); /* Increase the size to 120% of the original */
+        }
+            
+    
+    
+        .lenovobtn{
+        position: absolute;
+        padding:0;
+        margin: 0;
+        right: 180px;
+        top: 1550px;
+        }
+    
+        
+    .lenovobtn:active {
+      transform: scale(0.97); /* Scale down slightly when clicked */
+    }
+    
+    
+.hpp{
+    position: relative;
+    top: 1800px;
+    left: -40px;
+    
+    }
+    
+    .hpi {
+      position: absolute;
+      top: 2100px; 
+      left: 750px; 
+      padding: none;
+    }
+
+
+
+
+
+    .hpi {
+      transition: transform 0.3s ease; /* Add a smooth transition effect */
+    }
+    
+    /* Zoom in effect */
+    .hpi:hover {
+      transform: scale(1.01); /* Increase the size to 120% of the original */
+    }
+        
+
+    .hpbtn{
+    position: absolute;
+    top: 2130px;
+    padding:0;
+    margin: 0;
+    right: 180px;  
+    }
+  
+    
+    .hpbtn:active {
+      transform: scale(0.97); /* Scale down slightly when clicked */
+    }
+  
+  
+    
+  .msp{
+    position: relative;
+    top: 2450px;
+    left: -40px;
+    
+    }
+    
+    .msi {
+      position: absolute;
+      top: 2750px; 
+      left: 750px; 
+      padding: none;
+    }
+
+
+    .asus_zen{
+      position: relative;
+      top: 120px;
+      right: 50px;
+    
+    }
+
+
+    .rectangle {
+      width: 200px; /* Width of the rectangle */
+      height: 100px; /* Height of the rectangle */
+      background-color: #f0f0f0; /* Background color of the rectangle */
+      border: 2px solid black; /* Border style */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .msi {
+      transition: transform 0.3s ease; /* Add a smooth transition effect */
+    }
+    
+    /* Zoom in effect */
+    .msi:hover {
+      transform: scale(1.01); /* Increase the size to 120% of the original */
+    }
+        
+
+    header .navigation_Bar {
+      position: absolute;
+      left: -120px;
+      top: 50px;
+  }
+  
+  header .navigation_Bar li {
+      list-style-type: none;
+      margin-left: 30px;
+  }
+  
+  header .navigation_Bar li a {
+      text-decoration: none;
+      font-weight: 500;
+      color: var(--white);
+  }
+
+
+
+  .sticky .navigation_Bar li a {
+    color: var(--black);
+}
+
+header .navigation_Bar li a:hover {
+    color: var(--textSpanColor);
+}
+
+header .navigation_Bar li .activeLink {
+    color: var(--textSpanColor);
+}
+
+.sticky .navigation_Bar li .activeLink {
+    color: var(--textSpanColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .msbtn{
+    position: absolute; 
+    top: 2750px;
+    right: 180px;
+    padding:0;
+    }
+    .msbtn:active {
+      transform: scale(0.97); /* Scale down slightly when clicked */
+    }
+
+
+    /*----------------------------photos-------------------------------------*/
+
+
+  body {
+      min-height: 1000px;
+      background-color: var(--lightBackground);
+  }
+  
+  p {
+      font-weight: 300;
+      color: var(--black);
+  }
+  
+  header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 40px 100px;
+      z-index: 10000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.5s;
+  }
+  
+  header .logo {
+      color: var(--white);
+      font-weight: 200;
+      font-size: 1.5em;
+      text-decoration: none;
+  }
+  
+  header .logo span {
+      color: var(--textSpanColor);
+  }
+  
+  header .navigation_Bar {
+      position: relative;
+      display: flex;
+  }
+  
+  header .navigation_Bar li {
+      list-style-type: none;
+      margin-left: 30px;
+  }
+  
+  header .navigation_Bar li a {
+      text-decoration: none;
+      font-weight: 500;
+      color: var(--white);
+  }
+  
+  .menu_Toggle {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      background-image: url(images/Icons/menuIcon.png);
+      background-size: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+      display: none;
+  }
+  
+  .sticky {
+      background-color: var(--white);
+      padding: 10px 100px;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .sticky .logo {
+      color: var(--textSpanColor);
+  }
+  
+  
+  .sticky .logo span {
+      color: var(--black);
+  }
+  
+  .sticky .navigation_Bar li a {
+      color: var(--black);
+  }
+  
+  header .navigation_Bar li a:hover {
+      color: var(--textSpanColor);
+  }
+  
+  header .navigation_Bar li .activeLink {
+      color: var(--textSpanColor);
+  }
+  
+  .sticky .navigation_Bar li .activeLink {
+      color: var(--textSpanColor);
+  }
+  
+  section {
+      padding: 100px;
+  }
+  
+  .banner {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(images/background\ image.jpg);
+      background-size: cover;
+  }
+  
+  .banner .content {
+      max-width: 900px;
+      text-align: center;
+      text-shadow: #111;
+  }
+  
+  .banner .content h2 {
+      font-size: 4.5em;
+      color: var(--white);
+  }
+  
+  .banner .content p {
+      font-size: 1em;
+      color: #fff;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      
+  }
+  
+  .banner .content .search_Container {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      border-radius: 10px;
+  }
+  
+  .banner .content .search_Container input {
+      border: none;
+      /* background-color: transparent; */
+      height: 100%;
+      width: 70%;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      padding-left: 10px;
+      font-size: 1em;
+  }
+  
+  .banner .content .search_Container button {
+      margin: 0;
+      height: 100%;
+      width: 30%;
+      border: none;
+      background-color: var(--textSpanColor);
+      cursor: pointer;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      font-size: 1em;
+      color: #fff;
+      transition: 0.2s;
+  }
+  
+  .banner .content .search_Container button:hover {
+      background-color: var(--hoverColor);
+  }
+
+
+
+
+
+
+
+
+  

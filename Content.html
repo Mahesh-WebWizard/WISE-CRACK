@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content</title><br><br>
+
+  <style>
+    nav {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+    }
+
+    nav h1 {
+      width: 50%;
+      margin-left: 25px;
+      color: white;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      width: 50%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-left: 800px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .laptopItem {
+      border: 2px solid rgba(0, 0, 0, 0.3);
+      width: 99%;
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: center;
+    }
+
+    .laptopItem .specifications {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 33%;
+    }
+
+    .laptopItem .specifications ul {
+      list-style-type: none;
+    }
+
+    .laptopItem .specifications ul li {
+      font-size: 22px;
+    }
+
+    .laptopItem .image {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 20px;
+      /* background-color: aqua; */
+    }
+
+    .laptopItem .image img {
+      height: 350px;
+      width: auto;
+    }
+
+    #laptopImage {
+      height: 200px;
+    }
+
+    .laptopItem .buttonContainer {
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .laptopItem .buttonContainer img {
+      border: none;
+      height: 200px;
+    }
+
+    .detailesPopup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 300px;
+      width: 300px;
+      border-radius: 10px;
+      background-color: #fff;
+      border: 2px solid black;
+      opacity: 0;
+    }
+
+    .detailesPopup .detailsHeader {
+      width: 100%;
+      height: 50px;
+    }
+
+    .detailesPopup .detailsHeader p {
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      padding-bottom: 5px;
+    }
+
+    .detailesPopup .detailsImage {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .detailesPopup .detailsImage img {
+      width: 200px;
+    }
+
+    .openClose {
+      opacity: 1;
+    }
+
+
+    #laptopAddress{
+font-size: small;
+text-align: center;
+
+    }
+
+
+
+
+  </style>
+
+</head>
+
+
+<body>
+  <nav>
+    <h1>CONTENT LAPTOP</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="Categories.html">Categories</a></li>
+      <li><a href="Assist.html">Assist</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Laptop Item 1 -->
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>MacBook Pro 16-inch (M1 Pro/M1 Max)</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Apple M1 Pro or M1 Max chip (multi-core CPU)</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 64GB unified memory</li>
+        <br>
+        <li>Fast storage &nbsp;: 256GB to 512GB SSD</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 16-inch Retina display with True Tone and P3
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wide
+          color</li><br>
+        <li>Storage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 8TB SSD</li><br>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Dedicated AMD Radeon Pro
+          GPU</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="Apple MacBook Pro 16-inch.jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">APPLE</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus zen.png" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">Ward NO 89, Next Galleria, Unit No. L1-28, Punjagutta, Hyderabad, Telangana 500082</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+
+
+  <!-- Laptop Item 2 -->
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>Dell XPS 15 (9510)</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Intel Core i7 or i9 (11th Gen) (multi-core CPU)</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 64GB DDR4</li><br>
+        <li>Fast storage &nbsp;: PCIe NVMe SSD for fast data access</li><br>
+        <li>Storage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 2TB SSD</li><br>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: NVIDIA GeForce RTX 3050
+          Ti or 3060
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          (dedicated GPU)</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 15.6-inch 4K UHD+ touchscreen display with
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100%
+          Adobe RGB color gamut</li><br></ul>
+    </div>
+
+    <div class="image">
+      <img src="Dell XPS 15 (9510).jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">DELL</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus zen.png" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">First Floor, Amurtha Business Complex, Opp: Lalbangala Ameerpet, Metro Pillar No- C1431, Near Main road Begumpet, Punjagutta, Sanjeeva Reddy Nagar, Hyderabad, Telangana 500016</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>ASUS ROG Zephyrus G14</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: AMD Ryzen 9 5900HS (multi-core CPU)</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 32GB DDR4</li><br>
+        <li>Fast storage &nbsp;: PCIe NVMe SSD for fast data access</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 14-inch QHD IPS display with 100% sRGB color
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gamut
+        </li><br>
+        <li>Storage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 1TB SSD</li><br>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: NVIDIA GeForce RTX 3060
+          (dedicated GPU)</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="ASUS ROG Zephyrus G14.jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">ASUS</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus zen.png" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">6th floor, Minerva Complex, Mahatma Gandhi Rd, opp. Charmas, Kalasiguda, Secunderabad, Telangana 500003</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>HP Spectre x360 15</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Intel Core i7 or i9 (11th Gen) (multi-core CPU)</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 16GB DDR4</li><br>
+        <li>Fast storage &nbsp;: PCIe NVMe SSD for quick access to video files</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 14-inch QHD IPS display with 100% sRGB
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color
+          gamut</li><br>
+        <li>Storage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 2TB SSD</li><br>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: NVIDIA GeForce RTX 3060
+          (dedicated GPU)</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="HP Spectre x360 15.jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">HP</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus zen.png" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">1st floor, hp service center, Ameerpet Rd, opp. Meridian Plaza, Greenlands, Begumpet, Hyderabad, Telangana 500016</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>Lenovo ThinkPad X1 Extreme Gen 4</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Intel Core i7 or i9 (11th Gen) (multi-core CPU)</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 64GB DDR4</li><br>
+        <li>Fast storage &nbsp;: PCIe NVMe SSD for fast data access</li><br>
+        <li>Storage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Up to 2TB SSD</li><br>
+        <li>GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: NVIDIA GeForce RTX 3050
+          Ti or
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3060
+          (dedicated GPU)</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 15.6-inch 4K UHD IPS display with Dolby
+          Vision
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and
+          100% Adobe RGB color gamut</li><br>
+    </ul>
+    </div>
+
+    <div class="image">
+      <img src="Lenovo ThinkPad X1 Extreme Gen 4.jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">LENOVO</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="asus zen.png" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">No.1 sai Abadal Complexes Ameerpet Land mark Delhi Sweet house, Telangana 500018</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+
+
+
+  <script>
+
+    function openInfo(reference) {
+      let detailesPopup = reference.parentNode.parentNode.children[1].children[1];
+      detailesPopup.classList.toggle("openClose");
+    }
+  </script>
+
+
+</body>
+
+</html>

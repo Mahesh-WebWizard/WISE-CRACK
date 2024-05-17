@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wise Crack</title>
+</head>
+
+<body>
+    <header>
+        <a href="#banner" class="logo">www.wisecrack.com</a>
+        <div class="menu_Toggle" onclick="toggleMenu()" id="menu_Toggle"></div>
+        <ul class="navigation_Bar" id="navigation_Bar">
+            <li><a href="index.html" onclick="navlinkClick(this)" id="navLink1">Home</a></li>
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <li><a href="Categories.html" target="_blank">Categories</a></li>
+            <li><a href="Assist.html" target="_blank">Assist</a></li>
+            <li><a href="contact" target="_blank">Contact Us</a></li>
+        </ul>
+    </header>
+
+
+    <section class="contact" id="contact">
+        <h2 class="title_Text white_Title">Contact Us</h2>
+        <div class="contactContent">
+            <div class="contactFormPart">
+                <h2 class="CI_Text">Email us</h2>
+                <div class="contact_Form">
+                    <form id="contactForm">
+                        <div class="row_100">
+                            <div class="input100">
+                                <input type="text" name="" id="nameCF" placeholder="Name" required>
+                            </div>
+
+                        </div>
+
+                        <div class="row_100">
+                            <div class="input100">
+                                <input type="email" name="" id="emailCF" placeholder="Email Address" required>
+                            </div>
+                        </div>
+
+                        <div class="row_100">
+                            <div class="input100">
+                                <textarea placeholder="Message" id="textAreaCF" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row_100">
+                            <div class="input100">
+                                <button class="submitBtn" onclick="msgSent()" type="button"
+                                    id="sendButton">SEND</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <div class="messageSentPopUp" id="msgPopUp">
+
+        <div class="msgCard">
+            <h3 id="messageText">Your Message Has been sent</h3>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footerContent">
+            <div class="contactInfoFooter">
+                <h3 class="footerInfoHeads">Contact Info</h3>
+                <div class="contactText">
+                    <p>1-1-112/a</p>
+                    <p>Balanagar - 500011</p>
+                    <p>9100330812, 9505667749</p>
+                </div>
+
+            </div>
+            <div class="siteMap">
+                <h3 class="footerInfoHeads">Index</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html" target="_blank">About</a></li>
+                    <li><a href="Categories.html" target="_blank">Categories</a></li>
+                    <li><a href="Assist.html" target="_blank">Assist</a></li>
+                    <li><a href="Contact.html" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="subscribeInput">
+                <h4>Follow Us On</h4>
+                <div class="SMIcons">
+                    <a href="https://github.com/vangurijeevan"><img src="github.png" alt=""></a>
+                    <a href=""><img src="facebook.png" alt=""></a>
+                    <a href=""><img src="instagram.png" alt=""></a>
+                    <a href=""><img src="twitter.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="footerLabel">
+            <p class="copyrightText">Copyright &copy 2024 Wise Crack. All Rights Reserved.</p>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        let nameCF = document.querySelector("#nameCF");
+        let emailCF = document.querySelector("#emailCF");
+        let textAreaCF = document.querySelector("#textAreaCF");
+
+        function msgSent() {
+            if (nameCF.value == "" && emailCF.value == "" && textAreaCF.value == "") {
+                alert("Input Fields Cannot be Empty");
+            } else {
+                alert("Message Sent Successfully");
+                nameCF.value = "";
+                emailCF.value = "";
+                textAreaCF.value = "";
+            }
+        }
+    </script>
+</body>

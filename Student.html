@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student</title><br><br>
+
+  <style>
+    nav {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+    }
+
+    nav h1 {
+      width: 50%;
+      margin-left: 25px;
+      color: white;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      width: 50%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-left: 800px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .laptopItem {
+      border: 2px solid rgba(0, 0, 0, 0.3);
+      width: 99%;
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: center;
+    }
+
+    .laptopItem .specifications {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 33%;
+    }
+
+    .laptopItem .specifications ul {
+      list-style-type: none;
+    }
+
+    .laptopItem .specifications ul li {
+      font-size: 22px;
+    }
+
+    .laptopItem .image {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 20px;
+      /* background-color: aqua; */
+    }
+
+    .laptopItem .image img {
+      height: 350px;
+      width: auto;
+    }
+
+    #laptopImage {
+      height: 200px;
+    }
+
+    .laptopItem .buttonContainer {
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .laptopItem .buttonContainer img {
+      border: none;
+      height: 200px;
+    }
+
+    .detailesPopup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 350px;
+      width: 300px;
+      border-radius: 10px;
+      background-color: #fff;
+      border: 2px solid black;
+      opacity: 0;
+    }
+
+    .detailesPopup .detailsHeader {
+      width: 100%;
+      height: 50px;
+    }
+
+    .detailesPopup .detailsHeader p {
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      padding-bottom: 5px;
+    }
+
+    .detailesPopup .detailsImage {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .detailesPopup .detailsImage img {
+      width:auto;
+      height: auto;  
+
+    } 
+
+
+    #laptopAddress{
+      font-size: small;
+      text-align: center;
+
+    }
+
+    .openClose {
+      opacity: 1;
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+  <nav>
+    <h1>STUDENT LAPTOP</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="Categories.html">Categories</a></li>
+      <li><a href="Assist.html">Assist</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Laptop Item 1 -->
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>ASUS ZenBook 13</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Intel Core i5 or i7 (11th Gen)</li><br>
+        <li>RAM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 8GB or 16GB LPDDR4X</li><br>
+        <li>Storage &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 256GB to 512GB SSD</li><br>
+        <li>Display &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 13.3-inch FHD IPS display</li><br>
+        <li>Battery Life&nbsp;: Up to 12 hours</li><br>
+        <li>Portability&nbsp;&nbsp;&nbsp;: Lightweight and slim design</li><br>
+        <li>Keyboard&nbsp;&nbsp;&nbsp;: Ergonomic backlit keyboard</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="asus zen.png">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">ASUS</p>
+        </div>
+         <!-- <div class="detailsImage">
+          <img src="asus.jpg" alt="" id="laptopImage">
+        </div>   -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">6th floor, Minerva Complex, Mahatma Gandhi Rd, opp. Charmas, Kalasiguda, Secunderabad, Telangana 500003</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+
+
+  <!-- Laptop Item 2 -->
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>Dell-xps 13</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Intel Core i5 or i7 (11th Gen)</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 8GB or 16GB LPDDR4X</li><br>
+        <li>Storage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 256GB to 512GB SSD</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 13.4-inch FHD+ or 4K UHD+ display</li><br>
+        <li>Battery Life&nbsp;: Up to 14 hours</li><br>
+        <li>Portability&nbsp;&nbsp;&nbsp;: Lightweight and slim design</li><br>
+        <li>Keyboard&nbsp;&nbsp;&nbsp;: Comfortable keyboard with good key travel</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="dell-xps-13.png">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">DELL</p>
+        </div>
+          <!-- <div class="detailsImage">
+            <img src="DELL.jpg" alt="" id="laptopImage">
+          </div>    -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">First Floor, Amurtha Business Complex, Opp: Lalbangala Ameerpet, 
+            BRMetro Pillar No- C1431, Near Main road Begumpet, Punjagutta, Sanjeeva Reddy Nagar, Hyderabad, Telangana 500016</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>Lenovo Thinkpad X1 Carbon</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Intel Core i5 or i7 (10th Gen)</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 8GB or 16GB LPDDR3</li><br>
+        <li>Storage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 256GB to 1TB SSD</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 14-inch FHD or 4K UHD display</li><br>
+        <li>Battery Life&nbsp;: Up to 19.5 hours</li><br>
+        <li>Portability&nbsp;&nbsp;&nbsp;:Lightweight and durable carbon fiber construction</li><br>
+        <li>Keyboard&nbsp;&nbsp;&nbsp;: Spill-resistant keyboard with ergonomic design</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="Lenovo Thinkpad X1 Carbon.png">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">LENOVO</p>
+        </div>
+         <!-- <div class="detailsImage">
+          <img src="lenovo.jpg" alt="" id="laptopImage">
+        </div>  -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">No.1 sai Abadal Complexes Ameerpet Land mark Delhi Sweet house, Telangana 500018</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>HP Spectre x360 13</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Intel Core i5 or i7 (11th Gen)</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 8GB or 16GB LPDDR4X</li><br>
+        <li>Storage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 256GB to 512GB SSD</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 13.3-inch FHD or 4K UHD OLED touchscreen</li><br>
+        <li>Battery Life&nbsp;: Up to 12 hours</li><br>
+        <li>Portability&nbsp;&nbsp;&nbsp;: Slim and convertible design</li><br>
+        <li>Keyboard&nbsp;&nbsp;&nbsp;: Full-size backlit keyboard with <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          typing experience</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="HP Spectre x360 13.jpg">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">HP</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="hp.jpg" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">1st floor, hp service center, Ameerpet Rd, opp. Meridian Plaza, Greenlands, Begumpet, Hyderabad, Telangana 500016</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+  <div class="laptopItem">
+    <div class="specifications">
+      <h2>Microsoft Surface Laptop 4</h2>
+      <ul>
+        <li>Processor&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Intel Core i5 or i7 or AMD Ryzen 5 or 7</li><br>
+        <li>RAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:8GB or 16GB or 32GB LPDDR4X</li><br>
+        <li>Storage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 256GB to 1TB SSD</li><br>
+        <li>Display&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:13.5-inch or 15-inch PixelSense touchscreen</li><br>
+        <li>Battery Life&nbsp;: Up to 17.5 hours</li><br>
+        <li>Portability&nbsp;&nbsp;&nbsp;: Slim and lightweight design</li><br>
+        <li>Keyboard&nbsp;&nbsp;&nbsp;: Precision keyboard with comfortable key spacing</li><br>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="Microsoft Surface Laptop 4.png">
+
+      <div class="detailesPopup">
+        <div class="detailsHeader">
+          <p id="laptopName">MICROSOFT</p>
+        </div>
+        <!-- <div class="detailsImage">
+          <img src="microsoft.jpg" alt="" id="laptopImage">
+        </div> -->
+        <div class="detailsLocation">
+          <p id="laptopAddress">Mehdipatnam pillar no 15,16, Hyderabad, Telangana 500028</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonContainer">
+      <a onclick="openInfo(this)">
+        <img src="Service-icon.jpeg" title="click here to know services">
+      </a>
+    </div>
+  </div>
+
+
+
+  <script>
+
+    function openInfo(reference) {
+      let detailesPopup = reference.parentNode.parentNode.children[1].children[1];
+      detailesPopup.classList.toggle("openClose");
+    }
+  </script>
+
+
+</body>
+
+</html>
