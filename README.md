@@ -29,50 +29,47 @@ Azure Chatbot :- The Azure AI Language Chatbot is a cutting-edge conversational 
 
 # Screenshot’s:
 # Storage Account
-![storage account](https://github.com/kbjtushar/victory-vault/assets/161484157/721ce368-18ed-40f7-b87e-4e3934f644ec)
+![storage account](https://vangurijeevan.github.io/WISE-CRACK/a.png)
 
 # Static website
-![static website](https://github.com/kbjtushar/victory-vault/assets/161484157/08f69078-1167-463f-8f20-dcefd5085e33)
+![static website](https://vangurijeevan.github.io/WISE-CRACK/b.png))
 
 # Container
-![container](https://github.com/kbjtushar/victory-vault/assets/161484157/19f2d0fd-5644-4d1f-a0b1-89d29e8d3d50)
+![container](https://vangurijeevan.github.io/WISE-CRACK/c.png)
 
 # Backup vault
-![backup vault](https://github.com/kbjtushar/victory-vault/assets/161484157/e56b7a6e-cf95-486a-a5aa-3c026f4180ad)
+![backup vault](https://vangurijeevan.github.io/WISE-CRACK/d.png)
 
 # Role assignment
-![role assignment](https://github.com/kbjtushar/victory-vault/assets/161484157/c54ab63f-4312-4da5-b539-6238efd5e78e)
+![role assignment](https://vangurijeevan.github.io/WISE-CRACK/e.png)
 
 # Backup policy
-![backup policy](https://github.com/kbjtushar/victory-vault/assets/161484157/68ec0412-5147-4a88-8b5d-20a31b409d5a)
+![backup policy](https://vangurijeevan.github.io/WISE-CRACK/f.png)
 
 # Azure Bot
-![azure bot](https://github.com/kbjtushar/victory-vault/assets/161484157/47d6968c-91cd-4e87-b523-2dc2e430e69d)
+![azure bot](https://vangurijeevan.github.io/WISE-CRACK/g.png)
 
 # Test in web chat
-![test in webchat](https://github.com/kbjtushar/victory-vault/assets/161484157/9219a2df-5b27-426a-9fdb-4cad13cc2be6)
+![test in webchat](https://vangurijeevan.github.io/WISE-CRACK/h.png)
 
 # Resource visualizer
-![resource visualizer](https://github.com/kbjtushar/victory-vault/assets/161484157/9ae82a6f-3e6e-4a8c-945e-0a6bc8ef47ed)
+![resource visualizer](https://vangurijeevan.github.io/WISE-CRACK/f.png)
 
 # Description
 Here I am attaching the final working website's screenshot for the reference.
 
 # Working Live Project Display:
 # Home page
-![home](https://github.com/kbjtushar/victory-vault/assets/161484157/f8fc6c8a-5392-4c4c-b8af-3a07a631f7af)
+![home](https://vangurijeevan.github.io/WISE-CRACK/i.png)
 
-# History
-![history](https://github.com/kbjtushar/victory-vault/assets/161484157/91758bdf-8954-48c7-9f38-d15d1345a117)
+# Categories 
+![history](https://vangurijeevan.github.io/WISE-CRACK/j.png)
 
-# facilities page
-![facilities page](https://github.com/kbjtushar/victory-vault/assets/161484157/23f633c8-bb4d-4006-b356-a78d96ca7bb7)
-
-# Sports page
-![sports page](https://github.com/kbjtushar/victory-vault/assets/161484157/edc7c16d-27eb-463b-a212-779fd165d9aa)
+# Assist
+![facilities page](https://vangurijeevan.github.io/WISE-CRACK/k.png)
 
 # Contact page
-![contact page](https://github.com/kbjtushar/victory-vault/assets/161484157/3ae8ede2-15e0-43d2-a1de-8235b50dcf6a)
+![contact page](https://vangurijeevan.github.io/WISE-CRACK/l.png)
 
 # Final Project Statement:
 In conclusion, this platform revolutionizes the laptop purchasing and support experience by transcending standard recommendation services. By offering a holistic suite of support features, it empowers users throughout their entire laptop journey. With a service center locator for swift access to repair facilities and a dedicated "laptop guides coordinator" for personalized expert advice, the platform ensures smooth setup and operation. Additionally, its robust self-service knowledge base and live chat functionality provide real-time troubleshooting for both common and complex issues. This multi-layered support ecosystem maximizes the user's laptop experience, establishing the platform as a comprehensive, one-stop solution for all laptop-related needs, from selection to maintenance and ongoing support.
