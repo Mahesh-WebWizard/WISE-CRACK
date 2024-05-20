@@ -63,7 +63,7 @@ Here I am attaching the final working website's screenshot for the reference.
 ![home](https://vangurijeevan.github.io/WISE-CRACK/i.png)
 
 # About Us
-![home](https://vangurijeevan.github.io/WISE-CRACK/i.png)
+![home](https://vangurijeevan.github.io/WISE-CRACK/m.png)
 
 # Categories 
 ![history](https://vangurijeevan.github.io/WISE-CRACK/j.png)
