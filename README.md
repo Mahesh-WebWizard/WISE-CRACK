@@ -1,7 +1,7 @@
 # Wise-crack
 This platform transcends standard laptop recommendations by offering a holistic suite of support services that empower users throughout their entire laptop journey. It features a service center locator for swift access to nearby repair facilities and a "laptop guides coordinator" for personalized expert advice, ensuring smooth setup and operation. Additionally, it provides a robust self-service knowledge base and live chat for real-time troubleshooting, addressing both common and complex issues. This multi-layered support ecosystem maximizes the user's laptop experience, establishing the platform as a comprehensive, one-stop solution for all laptop-related needs, from selection to maintenance and ongoing support.
 # Project Details
-1. Project Demo URL: https://laptopstrorageaccount.z13.web.core.windows.net/
+1. Project Demo URL (Static Website): https://laptopstrorageaccount.z13.web.core.windows.net/
 2. Demo Video URL: https://youtu.be/vteOzXOdnOA?si=kC7g-Qy6LOLjB6ry
 3. GitHub Repository URL: https://github.com/vangurijeevan/WISE-CRACK
 4. Industry: lifestyle - Education
