@@ -7,7 +7,7 @@ This platform transcends standard laptop recommendations by offering a holistic 
 4. Industry: lifestyle - Education
 # Roles and responsibilities
 1. Vanguri Jeevan (project management) :Manages the web development project.
-2. Bodke Minhaz (Deployment) :Deployment and maintenance of project infrastructure.
+2. B Minhaz (Deployment) :Deployment and maintenance of project infrastructure.
 3. Shaik Mujahid (Images, logos and chat bot questions) :Responsible for image searching, logo creation and chat bot questions
 4. Jorige Mahesh (Documentation) :Responsible for managing the documentation process.
 # Azure services used:
