@@ -3,7 +3,7 @@ This platform transcends standard laptop recommendations by offering a holistic 
 # Project Details
 1. Project Demo URL: https://laptopstrorageaccount.z13.web.core.windows.net/
 2. Demo Video URL: https://youtu.be/vteOzXOdnOA?si=kC7g-Qy6LOLjB6ry
-3. GitHub Repository URL: https://github.com/kbjtushar/victory-vault
+3. GitHub Repository URL: https://github.com/vangurijeevan/WISE-CRACK
 4. Industry: lifestyle - Education
 # Roles and responsibilities
 1. Vanguri Jeevan (project management) :Manages the web development project.
@@ -60,6 +60,9 @@ Here I am attaching the final working website's screenshot for the reference.
 
 # Working Live Project Display:
 # Home page
+![home](https://vangurijeevan.github.io/WISE-CRACK/i.png)
+
+# About Us
 ![home](https://vangurijeevan.github.io/WISE-CRACK/i.png)
 
 # Categories 
