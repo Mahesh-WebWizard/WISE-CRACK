@@ -203,64 +203,6 @@ section {
     background-color: var(--hoverColor);
 }
 
-.searchList {
-    width: 70%;
-    margin: auto;
-    margin-top: 5px;
-    border-radius: 10px;
-
-    display: none;
-}
-
-.searchList ul {
-    position: absolute;
-    list-style-type: none;
-    border-radius: 10px;
-    background-color: var(--white);
-    border-radius: 10px;
-    width: 26%;
-    min-height: 80px;
-    max-height: 230px;
-    overflow-y: scroll;
-}
-
-.searchList ul::-webkit-scrollbar {
-    display: none;
-}
-
-.searchList ul li {
-    padding: 10px 0px;
-    border-bottom: solid 2px gray;
-    width: 90%;
-    margin: auto;
-    cursor: pointer;
-}
-
-.searchList ul li span {
-    display: block;
-}
-
-.searchList ul li span:nth-child(1) {
-    font-weight: bold;
-    font-size: 18px;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-#search_Button a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 15px 35px;
-}
-
-.searchList ul li span:nth-child(2) {
-    font-size: 12px;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-
 .title_Text {
     color: white;
     font-size: 2em;
@@ -328,14 +270,6 @@ section {
 
 .card_button:hover {
     background-color: #333;
-}
-
-.more_btn {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 20px;
-    cursor: pointer;
 }
 
 
@@ -779,37 +713,6 @@ section {
     text-align: justify;
 }
 
-.sec {
-    background: url(images/secbad.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
-    width: 40%;
-}
-
-.kcg {
-    background: url(images/kcg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 40%;
-}
-
-.jbs {
-    background: url(images/jbs.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 40%;
-}
-
-.mgbs {
-    background: url(images/mgbsN.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 40%;
-}
 
 .chatBotContainer {
     height: fit-content;
