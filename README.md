@@ -69,7 +69,7 @@ Here I am attaching the final working website's screenshot for the reference.
 ![history](https://vangurijeevan.github.io/WISE-CRACK/j.png)
 
 # Assist
-![facilities page](https://vangurijeevan.github.io/WISE-CRACK/k.png)
+![facilities page](https://vangurijeevan.github.io/WISE-CRACK/AS.png)
 
 # Contact page
 ![contact page](https://vangurijeevan.github.io/WISE-CRACK/l.png)
