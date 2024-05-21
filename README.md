@@ -9,7 +9,7 @@ This platform transcends standard laptop recommendations by offering a holistic 
 1. Vanguri Jeevan (Project Developer) :Manages the web development project.
 2. Shaik Mujahid (Project Supporter) :Responsible for supporting in website development.
 3. B.Minhaz (Deployment) :Deployment and maintenance of project infrasturcture.
-4. Jorige Mahesh (Documentation) :Responsible for managing the documentation process.
+4. Jorige Mahesh (Documentation) :Responsible in collecting photos and information related to project and managing the documentation process.
 # Azure services used:
 1. Azure blob storage
 2. Storage account
