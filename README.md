@@ -74,5 +74,9 @@ Here I am attaching the final working website's screenshot for the reference.
 # Contact page
 ![contact page](https://vangurijeevan.github.io/WISE-CRACK/l.png)
 
+# Chatbot
+![contact page](https://vangurijeevan.github.io/WISE-CRACK/l.png)
+
+
 # Final Project Statement:
 In conclusion, this platform revolutionizes the laptop purchasing and support experience by transcending standard recommendation services. By offering a holistic suite of support features, it empowers users throughout their entire laptop journey. With a service center locator for swift access to repair facilities and a dedicated "laptop guides coordinator" for personalized expert advice, the platform ensures smooth setup and operation. Additionally, its robust self-service knowledge base and live chat functionality provide real-time troubleshooting for both common and complex issues. This multi-layered support ecosystem maximizes the user's laptop experience, establishing the platform as a comprehensive, one-stop solution for all laptop-related needs, from selection to maintenance and ongoing support.
