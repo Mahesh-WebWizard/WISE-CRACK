@@ -50,7 +50,7 @@ Azure Chatbot :- The Azure AI Language Chatbot is a cutting-edge conversational 
 ![azure bot](https://vangurijeevan.github.io/WISE-CRACK/g.png)
 
 # Azure AI Service (Chatbot)
-![azure bot](https://vangurijeevan.github.io/WISE-CRACK/g.png)
+![azure bot](https://github.com/vangurijeevan/WISE-CRACK/blob/main/AIService(chatbot).png)
 
 # Test in web chat
 ![test in webchat](https://vangurijeevan.github.io/WISE-CRACK/h.png)
