@@ -43,6 +43,10 @@ Furthermore, the platformacknowledges that even tech-savvy users might face chal
 # Backup policy
 ![backup policy](https://vangurijeevan.github.io/WISE-CRACK/f.png)
 
+# Azure AI Services:
+# AI Language 
+
+
 # Azure Bot
 ![azure bot](https://vangurijeevan.github.io/WISE-CRACK/g.png)
 
@@ -50,7 +54,7 @@ Furthermore, the platformacknowledges that even tech-savvy users might face chal
 ![test in webchat](https://vangurijeevan.github.io/WISE-CRACK/h.png)
 
 # Test in web chat2
-![azure bot](https://github.com/vangurijeevan/WISE-CRACK/blob/main/chatbot2.png)
+![test in webchat2](https://github.com/vangurijeevan/WISE-CRACK/blob/main/chatbot2.png)
 
 # Resource visualizer
 ![resource visualizer](https://vangurijeevan.github.io/WISE-CRACK/RV.png)
