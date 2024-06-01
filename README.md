@@ -50,7 +50,7 @@ Furthermore, the platformacknowledges that even tech-savvy users might face chal
 ![test in webchat](https://vangurijeevan.github.io/WISE-CRACK/h.png)
 
 # Test in web chat2
-![azure bot](https://github.com/vangurijeevan/WISE-CRACK/blob/main/AIService(chatbot).png)
+![azure bot](https://github.com/vangurijeevan/WISE-CRACK/blob/main/chatbot2.png)
 
 # Resource visualizer
 ![resource visualizer](https://vangurijeevan.github.io/WISE-CRACK/RV.png)
