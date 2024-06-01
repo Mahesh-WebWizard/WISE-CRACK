@@ -43,9 +43,6 @@ Furthermore, the platformacknowledges that even tech-savvy users might face chal
 # Backup policy
 ![backup policy](https://vangurijeevan.github.io/WISE-CRACK/f.png)
 
-# Azure AI Service
-![azure bot](https://github.com/vangurijeevan/WISE-CRACK/blob/main/AIService(chatbot).png)
-
 # Azure Bot
 ![azure bot](https://vangurijeevan.github.io/WISE-CRACK/g.png)
 
