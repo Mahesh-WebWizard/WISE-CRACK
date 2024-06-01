@@ -4,7 +4,7 @@ This platform transcends standard laptop recommendations by offering a holistic 
 1. Project Demo URL (Static Website): https://laptopstrorageaccount.z13.web.core.windows.net/
 2. Demo Video URL(Youtube link): https://youtu.be/w2m0OYJypdM
 3. GitHub Repository URL: https://github.com/vangurijeevan/WISE-CRACK
-4. Industry: lifestyle - Education
+4. Industry: Lifestyle - Education
 # Roles and responsibilities
 1. Vanguri Jeevan (Project Developer) :Manages the web development project.
 2. Shaik Mujahid (Project Supporter) :Responsible for supporting in website development.
@@ -44,8 +44,8 @@ Furthermore, the platformacknowledges that even tech-savvy users might face chal
 ![backup policy](https://vangurijeevan.github.io/WISE-CRACK/f.png)
 
 # Azure AI Services:
-# AI Language 
-
+# Azure AI Language 
+![azure ai](https://vangurijeevan.github.io/WISE-CRACK/ai.png)
 
 # Azure Bot
 ![azure bot](https://vangurijeevan.github.io/WISE-CRACK/g.png)
