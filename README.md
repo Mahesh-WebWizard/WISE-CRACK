@@ -75,7 +75,7 @@ Here I am attaching the final working website's screenshot for the reference.
 ![contact page](https://vangurijeevan.github.io/WISE-CRACK/l.png)
 
 # Chatbot
-![contact page](https://vangurijeevan.github.io/WISE-CRACK/l.png)
+![contact page](https://github.com/vangurijeevan/WISE-CRACK/blob/main/chatbot.png)
 
 
 # Final Project Statement:
