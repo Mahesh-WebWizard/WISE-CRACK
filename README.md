@@ -29,7 +29,7 @@ Furthermore, the platformacknowledges that even tech-savvy users might face chal
 ![storage account](https://vangurijeevan.github.io/WISE-CRACK/a.png)
 
 # Static website
-![static website](https://vangurijeevan.github.io/WISE-CRACK/b.png))
+![static website](https://vangurijeevan.github.io/WISE-CRACK/b.png)
 
 # Container
 ![container](https://vangurijeevan.github.io/WISE-CRACK/c.png)
